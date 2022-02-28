@@ -39,5 +39,6 @@ click_btn  = driver.find_element(By.XPATH,'//div[@class="nav-search-submit nav-s
 click_btn.click()
 sleep(2)
 crawler(driver)
+driver.quit()
 
 
